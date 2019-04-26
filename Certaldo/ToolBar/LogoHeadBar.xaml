@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    x:Class="Certaldo.ToolBar.LogoHeadBar"
+    BackgroundColor="Transparent" BackgroundInputTransparent="true" CloseWhenBackgroundIsClicked="false">
+ <StackLayout
+        Spacing="-6"
+        BackgroundColor="Black"
+        HeightRequest="80"
+        VerticalOptions="StartAndExpand"
+        HorizontalOptions="FillAndExpand"
+        Orientation="Horizontal">
+        <Label Text="Back"  Margin="10,0,0,0" HorizontalOptions="Fill" VerticalOptions="Center" TextColor="white">
+             <Label.GestureRecognizers> <TapGestureRecognizer Tapped="Handle_Clicked"/></Label.GestureRecognizers>
+        </Label>
+         <Image Source="LogoCertaldo.png" HeightRequest="60" WidthRequest="60" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+         <BoxView BackgroundColor="Transparent" x:Name="ForcenterLogo"  Margin="10,0,0,0"/>
+</StackLayout>
+</pages:PopupPage>

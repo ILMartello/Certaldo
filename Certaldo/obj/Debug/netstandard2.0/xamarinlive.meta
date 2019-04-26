@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XamlProjectMeta xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Files>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/App.xaml</FilePath>
+      <Hash>A9-BC-B4-13-5E-78-A8-3A-B1-F8-04-DE-5D-32-51-9B</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/ContentViews/BtnsFloor.xaml</FilePath>
+      <Hash>9D-2D-71-F0-CC-9B-B0-8A-FA-F6-3C-22-72-B1-5E-EF</Hash>
+      <Properties>
+        <string>FlexLayout.Grow</string>
+      </Properties>
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/ContentViews/EventList_ContentView.xaml</FilePath>
+      <Hash>BD-F4-3F-D6-FD-1A-93-A4-FF-15-1A-79-71-F6-A9-F9</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/ContentViews/EventMap_ContentView.xaml</FilePath>
+      <Hash>65-E4-3E-DB-5E-DA-7A-20-D4-86-C3-F6-6D-74-FE-25</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/ContentViews/SiteList_ContentView.xaml</FilePath>
+      <Hash>02-D1-D7-C1-28-3B-EB-DE-56-EC-CD-D7-AA-8D-17-DF</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/ContentViews/SiteMap_ContentView.xaml</FilePath>
+      <Hash>7D-18-36-46-DC-4E-FA-D7-5C-10-37-4A-97-A3-2D-A2</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/MainPage.xaml</FilePath>
+      <Hash>E7-F8-1F-FD-DB-C4-01-88-8B-7A-4C-30-64-79-D0-BB</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/BuildingPagee.xaml</FilePath>
+      <Hash>85-0B-FE-B9-A7-EE-6F-C2-88-52-24-51-F8-12-EB-37</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/EventDetailPage.xaml</FilePath>
+      <Hash>D0-EF-B6-68-45-17-A3-B7-8F-55-FF-B1-6A-D1-38-95</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/EventsOfOnePage.xaml</FilePath>
+      <Hash>1B-E2-89-65-E7-52-58-3B-38-AE-7D-75-89-3C-52-54</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/EventsPage.xaml</FilePath>
+      <Hash>27-7A-96-A5-BA-67-08-62-88-4B-34-F4-B7-19-CD-98</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/RoomDetailPage.xaml</FilePath>
+      <Hash>52-D8-02-F1-C1-13-BA-BA-36-99-CF-AE-9B-02-00-3F</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/SiteDetailPage.xaml</FilePath>
+      <Hash>46-D2-64-74-AC-F2-0C-6C-9C-5D-57-F6-74-3B-DD-2D</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/SitePage.xaml</FilePath>
+      <Hash>17-66-F9-88-25-D6-60-88-21-81-ED-48-CA-71-CD-B4</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/SplashPage.xaml</FilePath>
+      <Hash>E3-E8-D9-CD-55-71-C3-C7-38-0F-14-CC-38-79-80-18</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/Pages/StartMenu.xaml</FilePath>
+      <Hash>29-06-02-64-02-85-EB-AD-10-02-65-BD-BB-F9-5A-C8</Hash>
+      <Properties />
+    </XamlFileMeta>
+    <XamlFileMeta>
+      <FilePath>/Users/franz/Desktop/mm/ProgettiXamarin/Certaldo/Certaldo/ToolBar/LogoHeadBar.xaml</FilePath>
+      <Hash>52-23-B6-39-01-71-F2-67-69-01-FB-D1-5E-03-88-E9</Hash>
+      <Properties>
+        <string>BackgroundColor</string>
+        <string>BackgroundInputTransparent</string>
+        <string>CloseWhenBackgroundIsClicked</string>
+      </Properties>
+    </XamlFileMeta>
+  </Files>
+</XamlProjectMeta>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:map="clr-namespace:Parallelo.Maps;assembly=Parallelo.Maps"
+             x:Class="Certaldo.ContentViews.EventMap_ContentView">
+    <ContentView.Content>
+        <map:Map HeightRequest="680" MapType="Satellite" x:Name="Mappa" InfoWindowClicked="Handle_InfoWindowClicked" InitialCameraPosition="43.549813,11.0351002, 14.5, 0, 0">
+                <map:Map.InfoWindowTemplate>
+                    <DataTemplate>
+                        <Frame HeightRequest="100" WidthRequest="200">
+                        <StackLayout>    
+                            <Label Text="Vedi tutti gli eventi a"/>
+                        <Label Text="{Binding Title}"/>
+                        </StackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </map:Map.InfoWindowTemplate>
+            </map:Map>
+    </ContentView.Content>
+</ContentView>

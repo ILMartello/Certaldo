@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true"
+             x:Class="Certaldo.Pages.StartMenu">
+    <ContentPage.Content>
+         <ScrollView Grid.Row="1" Margin="0,80,0,0">
+                 <StackLayout VerticalOptions="StartAndExpand" Spacing="-6">
+            <Grid HorizontalOptions="Center" VerticalOptions="Center" RowSpacing="0">
+                      <Grid.RowDefinitions>
+                        <RowDefinition Height="190"/>
+                        <RowDefinition Height="190"/>
+                        <RowDefinition Height="190"/>
+                        <RowDefinition Height="190"/>
+                      </Grid.RowDefinitions>
+
+                      <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                      </Grid.ColumnDefinitions>
+                      <Image BackgroundColor="White" HorizontalOptions="FillAndExpand" Aspect="AspectFill"
+                             Source="pretorio.jpg"
+                             Grid.Row="0"
+                             Grid.Column="0"/>
+                        <Image BackgroundColor="Transparent" HorizontalOptions="Fill" Aspect="Fill"
+                             Source="Noir.png"
+                             Grid.Row="0"
+                             Grid.Column="0"
+                               Opacity="0.8">
+                            <Image.GestureRecognizers>
+                                 <TapGestureRecognizer Tapped="OpenPPretorio"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                      <Label Text="Palazzo Pretorio" TextColor="white" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" Margin="12,0,0,15"
+                             Grid.Row="0"
+                             Grid.Column="0"/>
+                    
+                    <Image BackgroundColor="White" HorizontalOptions="FillAndExpand" Aspect="AspectFill"
+                             Source="boccaccio.jpg"
+                             Grid.Row="1"
+                             Grid.Column="0"/>
+                        <Image BackgroundColor="Transparent" HorizontalOptions="Fill" Aspect="Fill"
+                             Source="Noir.png"
+                             Grid.Row="1"
+                             Grid.Column="0"
+                               Opacity="0.8">
+                            <Image.GestureRecognizers>
+                                 <TapGestureRecognizer Tapped="OpenBoccaccio"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                      <Label Text="Casa Boccaccio" TextColor="white" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" Margin="12,0,0,15"
+                             Grid.Row="1"
+                             Grid.Column="0"/>
+                    
+                     <Image BackgroundColor="White" HorizontalOptions="FillAndExpand" Aspect="AspectFill"
+                             Source="certaldoalta.jpg"
+                             Grid.Row="2"
+                             Grid.Column="0"/>
+                        <Image BackgroundColor="Transparent" HorizontalOptions="Fill" Aspect="Fill"
+                             Source="Noir.png"
+                             Grid.Row="2"
+                             Grid.Column="0"
+                               Opacity="0.8">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OpenLuoghi"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                      <Label Text="Certaldo Alta" TextColor="white" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" Margin="12,0,0,15"
+                             Grid.Row="2"
+                             Grid.Column="0"/>
+                    
+                      <Image BackgroundColor="White" HorizontalOptions="FillAndExpand" Aspect="AspectFill"
+                             Source="FromWeb_Eventi.jpg"
+                             Grid.Row="3"
+                             Grid.Column="0"/>
+                        <Image BackgroundColor="Transparent" HorizontalOptions="Fill" Aspect="Fill"
+                             Source="Noir.png"
+                             Grid.Row="3"
+                             Grid.Column="0"
+                               Opacity="0.8">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="OpenEvents"/>
+                            </Image.GestureRecognizers>
+                        </Image>
+                      <Label Text="Eventi a Certaldo Alta" TextColor="white" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" Margin="12,0,0,15"
+                             Grid.Row="3"
+                             Grid.Column="0"/>
+                        </Grid>
+                  
+                    
+                     <StackLayout BackgroundColor="Silver" HeightRequest="170">
+                            <StackLayout.GestureRecognizers>
+                                 <TapGestureRecognizer Tapped="OpenTurismo"/>
+                            </StackLayout.GestureRecognizers>
+                       <Label Text="Info Turismo" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" Margin="12,0,0,15"/>
+                          </StackLayout>
+                    
+                     <StackLayout BackgroundColor="Black" HeightRequest="80">
+                            <StackLayout.GestureRecognizers>
+                                 <TapGestureRecognizer Tapped="OpenCredits"/>
+                            </StackLayout.GestureRecognizers>
+                          <Label Text="Credits" TextColor="White" VerticalOptions="EndAndExpand" HorizontalOptions="StartAndExpand" Margin="12,0,0,15"/>
+                           </StackLayout>
+                 </StackLayout>
+            </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

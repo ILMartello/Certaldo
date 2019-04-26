@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true"
+             xmlns:htmlLabel="clr-namespace:LabelHtml.Forms.Plugin.Abstractions;assembly=HtmlLabel.Forms.Plugin"
+             xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="Certaldo.Pages.RoomDetailPage">
+    <ContentPage.Content>
+         <StackLayout Margin="10,80,0,0">
+            <ffimageloading:CachedImage HorizontalOptions="FillAndExpand" HeightRequest="200" BackgroundColor="White" Source="{Binding Immagine}" Aspect="AspectFill"/>
+            <Label Margin="0,0,0,10" Text="{Binding Translation.Title}" FontSize="Large" Font="Bold"/>
+            <ScrollView Margin="10,10,10,0">
+            <htmlLabel:HtmlLabel Text="{Binding Translation.Description}"/>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core" ios:Page.UseSafeArea="true"
+             x:Class="Certaldo.Pages.EventsPage">
+    <ContentPage.Content>
+             <Grid Margin="0,80,0,0" RowSpacing="0" ColumnSpacing="0">
+                <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>    
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                   <Label Grid.Row="0" Text="Eventi di Certaldo Alta" BackgroundColor="Silver" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                    <StackLayout Grid.Row="1">
+                        <ContentView Content="{Binding CurrentMode}"/>
+                    </StackLayout>
+                <FlexLayout Grid.Row="2" Direction="Row" BackgroundColor="Black">
+                    <StackLayout Spacing="0" FlexLayout.Grow="1">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Get_ListMode"/>
+                            </StackLayout.GestureRecognizers>
+                        <BoxView x:Name="ListLineBtn" HeightRequest="5" VerticalOptions="StartAndExpand" BackgroundColor="Transparent"/>
+                        <Label Text="Lista" FontSize="Small" TextColor="White" VerticalTextAlignment="Start" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand"/>
+                    </StackLayout>
+                    <StackLayout Spacing="0" FlexLayout.Grow="1">
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="Get_MapsMode"/>
+                            </StackLayout.GestureRecognizers>
+                        <BoxView x:Name="MapLineBtn" HeightRequest="5" VerticalOptions="StartAndExpand" BackgroundColor="Transparent"/>
+                        <Label Text="Mappa" FontSize="Small" TextColor="White" VerticalTextAlignment="Start" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand"/>
+                    </StackLayout>
+                </FlexLayout>
+            </Grid>
+    </ContentPage.Content>
+</ContentPage>

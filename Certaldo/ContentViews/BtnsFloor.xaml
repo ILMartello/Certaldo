@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Certaldo.ContentViews.BtnsFloor"
+              FlexLayout.Grow="1">
+    <ContentView.Content>
+        <StackLayout Spacing="0">
+            <BoxView x:Name="LineBtn" HeightRequest="5" BackgroundColor="Transparent"/>
+            <Label Text="{Binding Key}" FontSize="Small" TextColor="White" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" VerticalOptions="FillAndExpand"/>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

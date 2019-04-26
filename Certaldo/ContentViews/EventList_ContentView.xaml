@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:htmlLabel="clr-namespace:LabelHtml.Forms.Plugin.Abstractions;assembly=HtmlLabel.Forms.Plugin"
+             x:Class="Certaldo.ContentViews.EventList_ContentView">
+    <ContentView.Content>
+        <StackLayout>
+             <ListView
+            ItemsSource="{Binding Events}"
+            RowHeight="80"
+            Margin="10,10,0,0"
+            SeparatorVisibility="Default"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="StartAndExpand"
+            ItemTapped="OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout VerticalOptions="CenterAndExpand" Spacing="5">
+                                <StackLayout Orientation="Horizontal" >
+                                    <Image Source="{Binding Immagine}" HeightRequest="80" Aspect="AspectFill" />
+                                    <StackLayout VerticalOptions="CenterAndExpand">
+                                        <Label Text="{Binding Translation.Title}" FontAttributes="Bold" FontSize="Default" />
+                                        <htmlLabel:HtmlLabel MaxLines="2" Text="{Binding Translation.Description}" FontSize="Small" />
+                                        <Label Text="{Binding dataInizio}" FontSize="Small" />
+                                       <Label Text="{Binding dataFine}" FontSize="Small" />
+                                         <Label Text="{Binding MyPlace.Translation.Title}" FontSize="Small" />
+                                    </StackLayout>
+                                </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+                </ListView.ItemTemplate>
+           </ListView>
+           </StackLayout>
+    </ContentView.Content>
+</ContentView>
